@@ -1,0 +1,38 @@
+.main{
+    width: 1000px;
+    height: 600px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    row-gap: 3px;
+}
+.a{
+    background: blue;
+    width: 1000px;
+    height: 200px;
+}
+.b{
+    width: 750px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.b1{
+    background: darkslateblue;
+    width: 750px;
+    height: 200px;
+}
+.b2{
+    background: yellow;
+    width: 246px;
+    height: 200px;
+    margin: 2px;
+}
+.c{
+    background: brown;
+    width: 247px;
+    height: 404px;
+    margin-left: 3px;
+}

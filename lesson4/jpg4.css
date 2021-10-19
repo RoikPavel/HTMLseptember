@@ -1,0 +1,32 @@
+.main1{
+    background: gray;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.header{
+    background: blue;
+    width: 800px;
+    height: 130px;
+}
+.nav{
+    background: darkgoldenrod;
+    height: 70px;
+}
+.main{
+    background: coral;
+    width: 600px;
+    height: 220px;
+}
+.aside{
+    background: forestgreen;
+    width: 200px;
+    height: 220px;
+}
+.footer{
+    background: fuchsia;
+    width: 800px;
+    height: 80px;
+}

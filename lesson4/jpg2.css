@@ -1,0 +1,38 @@
+.main{
+    box-sizing: border-box;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+#header{
+    background: aqua;
+    width: 1000px;
+    height: 100px;
+}
+#menu{
+    background: gray;
+    width: 150px;
+    height: 450px;
+}
+.post{
+    width: 850px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    border-left: 5px;
+}
+.post1{
+    background: chartreuse;
+    width: 850px;
+    height:50%;
+}
+.post2{
+    background: forestgreen;
+}
+#footer{
+    background: aqua;
+    width: 1000px;
+    height: 100px;
+}

@@ -23,14 +23,12 @@
     height: 25%;
     background: yellow;
     border: 3px solid white;
-
 }
 .c {
     width: 100%;
     height: 25%;
     justify-content: space-between;
     display: flex;
-
 }
 .c1{
     background: gray;

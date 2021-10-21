@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jpg1</title>
+    <Style>
+        .color {
+            background: gray;
+            border: 5px solid white;
+            border-radius: 5px;
+        }
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .main {
+            width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .heading {
+            height: 150px;
+        }
+        .height {
+            height: 300px;
+        }
+        .description-left {
+            flex-grow: 3;
+            width: 73%;
+
+        }
+        .description-right {
+            flex-grow: 1;
+            width: 24%;
+        }
+    </Style>
+</head>
+<body>
+<div class="main flex">
+    <div class="heading main color">a</div>
+    <div class="height flex main">
+        <div class="description-left color">b</div>
+        <div class="description-right color">c</div>
+    </div>
+
+</div>
+</body>
+</html>

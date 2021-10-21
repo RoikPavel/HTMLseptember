@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jpeg2.1</title>
+    <style>
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 5px;
+        }
+        .w800 {
+            width: 800px;
+        }
+        .h400 {
+            height: 400px;
+        }
+        #header {
+            height: 100px;
+            background: green;
+        }
+        #menu {
+            width: 23%;
+            background: deeppink;
+            margin-right: 5px;
+        }
+        #footer {
+            background: yellowgreen;
+            height: 100px;
+        }
+        .post {
+            flex-grow: 1;
+        }
+        .post-left {
+            background: deepskyblue;
+            width: 100%;
+            height: 50%;
+        }
+        .post-right {
+            background: deepskyblue;
+            height: 49%;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        #footer {
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+<div class="w800 flex">
+    <div id="header" class="w800"></div>
+    <div id="menu" class="h400"></div>
+    <div class="post h400 flex">
+        <div class="post-left post"></div>
+        <div class="post-right post"></div>
+    </div>
+    <div id="footer" class="w800"></div>
+
+</div>
+</body>
+</html>

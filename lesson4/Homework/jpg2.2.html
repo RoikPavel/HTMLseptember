@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jpg2.2</title>
+</head>
+<style>
+    .w800 {
+        width: 800px;
+    }
+    .h150 {
+        height: 150px;
+    }
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bigwidget {
+        background: darkblue;
+        flex-grow: 1;
+    }
+    .img {
+        width: 100%;
+    }
+    .widgets {
+        background: blue;
+    }
+    .contact {
+        height: 300px;
+        background: blue;
+    }
+    .margin{
+        margin: 5px;
+    }
+</style>
+<body>
+<div class="main w800">
+    <div class="widgets h150 w800 margin"></div>
+
+    <div class="img main">
+        <div class="bigwidget h150 margin"></div>
+        <div class="bigwidget h150 margin"></div>
+        <div class="bigwidget h150 margin"></div>
+    </div>
+    <div class="contact w800 margin">
+    </div>
+</div>
+</body>
+</html>

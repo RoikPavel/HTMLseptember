@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jpg2</title>
+    <style>
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .w800 {
+            width: 800px;
+        }
+
+        .h100 {
+            height: 100px;
+        }
+
+        .header {
+            background: blue;
+        }
+
+        .nav {
+            background: darkblue;
+            height: 75px;
+        }
+
+        .description {
+            height: 300px;
+        }
+
+        .main {
+            height: 100%;
+            flex-grow: 3;
+            background: deepskyblue;
+        }
+
+        .aside {
+            height: 100%;
+            flex-grow: 1;
+            background: darkmagenta;
+        }
+
+        .footer {
+            background: aqua;
+            height: 75px;
+        }
+    </style>
+</head>
+<body>
+<div class="flex w800">
+    <div class="header w800 h100">header</div>
+
+    <div class="nav w800">nav</div>
+
+    <div class="description flex w800 ">
+        <div class="main">main</div>
+        <div class="aside">aside</div>
+    </div>
+    <div class="footer w800 ">footer</div>
+</div>
+</body>
+</html>

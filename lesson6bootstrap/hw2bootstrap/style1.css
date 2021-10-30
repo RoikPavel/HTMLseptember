@@ -1,0 +1,105 @@
+.header{
+    background: rgba(255, 255, 255, 0.3);
+    mix-blend-mode: normal;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+}
+.navbar-light .navbar-nav .nav-link{
+    border: 2px solid transparent;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: #2E75FF;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.box1__left_h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+.box1__left p{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+    margin-top: 120px;
+    position: relative;
+}
+.box1__left_p::before,
+.box1__left_p::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 227px;
+    height: 7px;
+    background-color: #EDEFF3;
+}
+.box1__left_p::before{
+    margin-top: -50px;
+}
+.box1__left_p::after{
+margin-top: 50px;
+}
+
+.box1__left{
+    margin-top: 100px;
+
+}
+.box2__left{
+    padding-left: 30px;
+}
+.box2__left_h2{
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #1652AC;
+    margin-top: 30px;
+}
+.box2__left_p{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+.box__2 img{
+    padding-top: 150px;
+}
+.box3__left_h2{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+    text-align: start;
+}
+.box3__left_p{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+}
+.box3__left{
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+    padding: 120px;
+
+}
+.box3 img{
+    height: 729px;
+}
+
+@media screen and (max-width: 1200px) {
+    .box1__mobile p::before {
+        display: none
+    }
+    .box1__mobile p::after {
+        display: none
+    }
+
+}

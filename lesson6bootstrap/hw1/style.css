@@ -1,0 +1,107 @@
+.header{
+    background: rgba(255, 255, 255, 0.3);
+    mix-blend-mode: normal;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+}
+.nav-link dropdown-toggle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.32px;
+    color: #2E75FF;
+}
+.box__1_h1{
+    font-size: 48px;
+    line-height: 54px;
+    color: #1652AC;
+    margin-bottom: 100px;
+}
+
+.box__1_p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+}
+.box__1_p::before,
+.box__1_p::after{
+    content: "";
+    display: block;
+    width: 227px;
+    height: 7px;
+    background-color: #EDEFF3;
+    position: absolute;
+}
+.box__1_p::before{
+    margin-top: -50px;
+}
+.box__1_p::after{
+    margin-top: 50px
+}
+.box__2_h2{
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #1652AC;
+    margin-top: 151px;
+}
+.box__2_p{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+    margin-top: 22px;
+}
+.box__2_description{
+    height: 650px;
+    padding: 57px;
+}
+.box__2_img img{
+    width: 650px;
+}
+.box__3_h2{
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+}
+.box__3_p{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+}
+.box__3_img img {
+    width: 545px;
+    height: 650px;
+}
+.box__3_description{
+    height: 650px;
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+    padding: 151px}
+
+
+@media screen and (max-width: 400px) {
+{
+
+}
+}
+

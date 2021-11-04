@@ -52,7 +52,11 @@
 .header__footer .input-group {
     height: 60px;
     padding: 0 0 0 30px ;
-    width: 650px;
+    width: 650px
+}
+
+.header__footer_account{
+    padding-left: 150px;
 }
 
 

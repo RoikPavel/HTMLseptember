@@ -2,52 +2,59 @@
     padding: 0;
     margin: 0;
 }
+
 .header {
-    width: 1920px;
+    max-width: 1920px;
+}
+
+.header__top {
+    max-width: 100%;
     background-color: #0F2438;
-}
-.container {
-}
-.header__top{
-    max-width: 1360px;
-    min-height: 20px;
+    padding: 0 280px;
 }
 
 .header__top_location a {
-text-decoration: none;
+    text-decoration: none;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
-    width: 150px;
+
 }
-.header__top_dropdown{
+
+.header__top_dropdown {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    width: 200px;
+
 }
-.btn-primary {
+
+.header__contacts {
+    max-width: 100%;
+    padding: 30px 280px;
+    background: #FFFFFF;
+}
+
+.header__top .btn-primary {
     color: #fff;
     background-color: #0F2438;
     border-color: #0F2438;
 }
-.btn .btn-primary .dropdown-toggle{
-    height: 16px;
+
+.header__footer {
+    width: 100%;
+    padding: 25px 280px;
+    background: #FFFFFF;
 }
 
-.header__top_menu{
-    width: 600px;
+.header__footer .input-group {
+    height: 60px;
+    padding: 0 0 0 30px ;
+    width: 650px;
 }
-.header__top_menu .nav-link {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFF;
-    padding: 0 10px;
-}
+
+
 
 

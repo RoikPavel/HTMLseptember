@@ -7,10 +7,13 @@
     max-width: 1920px;
 }
 
-.header__top {
+.size {
     max-width: 100%;
-    background-color: #0F2438;
     padding: 0 280px;
+}
+
+.header__top {
+    background-color: #0F2438;
 }
 
 .header__top_location a {
@@ -51,13 +54,23 @@
 
 .header__footer .input-group {
     height: 60px;
-    padding: 0 0 0 30px ;
+    padding: 0 0 0 30px;
     width: 650px
 }
 
-.header__footer_account{
+.header__footer_account {
     padding-left: 150px;
 }
+
+.main__top_promo {
+    margin-left: 20px;
+}
+.main_top_promo_up, .main_top_promo_down{
+    padding: 5px 0;
+}
+
+
+
 
 
 

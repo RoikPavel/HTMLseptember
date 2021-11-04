@@ -27,5 +27,19 @@
     width: 100%
 }
 
+.main__top{
+    padding: 10px 10px ;
+}
+.main__top_promo{
+    margin-left: 0;
+}
+.main_top_promo_up, .main_top_promo_down{
+    padding: 5px 5px 5px 0 ;
+}
+.main_top_promo_up img, .main_top_promo_down img{
+    width: 280px;
+    height: 195px;
+}
+
 
 }

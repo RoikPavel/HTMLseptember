@@ -82,6 +82,42 @@
     column-gap: 20px;
     margin-top: 70px;
 }
+.product__items{
+    width: 100%;
+    padding: 40px 280px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.product__card{
+    width: 316px;
+    height: 418px;
+}
+.main__products_show{
+    width: 100%;
+    padding: 40px 280px;
+}
+.main__footer_news{
+    padding: 0 280px;
+    margin-top: -15px;
+
+}
+.main__footer_news div{
+    width: 280px;
+    height: 140px;
+}
+.main__footer_news h2{
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #005BB9;
+    padding: 20px 0;
+}
+.main__footer_news p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #242424;
+}
+
 
 
 

@@ -7,60 +7,96 @@
     .header__contacts {
         padding: 10px 10px 0 10px
     }
-.header_contacts_logo{
-    width: 135px;
-    height: 47px;
-}
-.header_contacts_whatsapp{
-    width: 122px;
-    height: 12px;
-}
-.header_contacts_phone, .header_contacts_phone{
-    width: 110px;
-    height: 30px;
-}
-.header__footer{
-    padding: 10px 10px 0 10px;
-}
-.header__footer .input-group{
-    max-height: 40px;
-    width: 100%
-}
 
-.main__top{
-    padding: 10px 10px ;
-}
-.main__top_promo{
-    margin-left: 0;
-    overflow: hidden;
-}
+    .header_contacts_logo {
+        width: 135px;
+        height: 47px;
+    }
 
-.main_top_promo_up, .main_top_promo_down{
-    padding: 5px 5px 5px 0 ;
-}
-.main_top_promo_up img, .main_top_promo_down img{
-    width: 250px;
-    height: 145px;
-}
-.main__nav_mob{
-    padding: 0 10px;
-}
-.top__promo{
-    width: 100%;
-    padding: 15px 0;
-}
-.top__promo_promo1,.top__promo_promo2{
-    width: 250px;
-    height: 126px;
-    background: #FFFFFF;
-    border: 1px solid #E1E5F8;
-    box-sizing: border-box;
-    border-radius: 6px;
-}
-.top__promo_promo2{
-    overflow: hidden;
-    padding-left: 5px
-}
+    .header_contacts_whatsapp {
+        width: 122px;
+        height: 12px;
+    }
 
+    .header_contacts_phone, .header_contacts_phone {
+        width: 110px;
+        height: 30px;
+    }
 
+    .header__footer {
+        padding: 10px 10px 0 10px;
+    }
+
+    .header__footer .input-group {
+        max-height: 40px;
+        width: 100%
+    }
+
+    .main__top {
+        padding: 10px 10px;
+    }
+
+    .main__top_promo {
+        margin-left: 0;
+        overflow: hidden;
+    }
+
+    .main_top_promo_up, .main_top_promo_down {
+        padding: 5px 5px 5px 0;
+    }
+
+    .main_top_promo_up img, .main_top_promo_down img {
+        width: 250px;
+        height: 145px;
+    }
+
+    .main__nav_mob {
+        padding: 0 10px;
+    }
+
+    .top__promo {
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    .top__promo_promo1, .top__promo_promo2 {
+        width: 250px;
+        height: 126px;
+        background: #FFFFFF;
+        border: 1px solid #E1E5F8;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+
+    .top__promo_promo2 {
+        overflow: hidden;
+        padding-left: 5px
+    }
+
+    .product__items .size {
+        padding: 1px;
+    }
+
+    .product__items {
+        width: 100%;
+        height: 600px;
+        padding: 10px;
+        column-gap: 5px;
+        overflow: hidden;
+    }
+
+    .product__card {
+        width: 138px;
+        height: 200px
+    }
+
+    .product__card img {
+        width: 100%;
+        height: 100%;
+        column-gap: 5px
+    }
+
+    .main__products_show {
+        padding: 40px 0
+    }
 }

@@ -32,13 +32,18 @@
 }
 .main__top_promo{
     margin-left: 0;
+    overflow: hidden;
 }
+
 .main_top_promo_up, .main_top_promo_down{
     padding: 5px 5px 5px 0 ;
 }
 .main_top_promo_up img, .main_top_promo_down img{
     width: 250px;
     height: 145px;
+}
+.main__nav_mob{
+    padding: 0 10px;
 }
 
 

@@ -68,6 +68,19 @@
 .main_top_promo_up, .main_top_promo_down{
     padding: 5px 0;
 }
+.top__promo{
+    width: 100%;
+    padding: 25px 280px;
+}
+.top__promo_promo1,.top__promo_promo2,.top__promo_promo3{
+   width: 431px;
+    height: 184px;
+    background: #FFFFFF;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    justify-content: space-between
+}
 
 
 

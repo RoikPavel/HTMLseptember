@@ -99,4 +99,23 @@
     .main__products_show {
         padding: 40px 0
     }
+
+    .main__footer_news {
+        padding: 10px;
+        width: 100%;
+        row-gap: 20px;
+    }
+
+    .daily__news {
+        max-width: 290px;
+    }
+
+    .daily__news p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .h2news {
+        padding: 10px;
+    }
 }

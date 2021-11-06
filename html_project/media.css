@@ -118,4 +118,26 @@
     .h2news {
         padding: 10px;
     }
+
+    .footer {
+        padding: 0 10px;
+    }
+
+    .footer__nav {
+        padding: 0;
+    }
+
+    .footer__form {
+        width: 100%;
+    }
+
+    .footer__social {
+        padding: 0 10px
+    }
+
+    .footer__social p {
+        font-size: 12px;
+        line-height: 14px;
+
+    }
 }
